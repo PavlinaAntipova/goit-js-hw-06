@@ -39,6 +39,7 @@ const onCreateBtn = () => {
     return;
   }
   createBoxes(inputValue);
+  inputNumberRef.value = "";
 };
 
 const destroyBoxes = () => {
